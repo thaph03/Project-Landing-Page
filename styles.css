@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
 }
-
+/* this is css for nav bar */
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -18,7 +18,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-right: 40px;
+  margin-right: 100px;
 }
 
 .nav-links li {
@@ -36,6 +36,47 @@
 
 .nav-links li a:hover {
   color: #26c5fd;
+  transition: 0.3s;
+}
+
+/* this is css titles section */
+
+.title-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+  background-color: #1f2937;
+}
+
+.title-content .left-wrapper {
+  padding-left: 30px;
+  margin-left: 25em;
+}
+.left-wrapper li {
+  list-style: none;
+  color: azure;
+  font-family: Orbitron;
+  margin-bottom: 50px;
+}
+
+.sign-up-btn {
+  height: 50px;
+  width: 100px;
+  font-family: Orbitron;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #26c5fd;
+  color: azure;
+}
+
+.sign-up-btn:hover {
+  background-color: azure;
+  color: #26c5fd;
+  transition: 0.3s;
+}
+.right-wrapper {
+  margin-right: 150px;
 }
 
 @media screen and (max-width: 768px) {
@@ -44,12 +85,27 @@
     align-items: center;
   }
 
+  .title-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .nav-links {
     margin-top: 20px;
     justify-content: center;
+    padding-left: 50px;
   }
 
   .nav-links li {
     margin: 0 10px;
+  }
+
+  .title-content .left-wrapper {
+    padding-left: 10px;
+    margin-left: 5em;
+  }
+
+  .right-wrapper {
+    margin-right: 50px;
   }
 }
