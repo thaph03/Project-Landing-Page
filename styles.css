@@ -74,11 +74,138 @@
   background-color: azure;
   color: #26c5fd;
   transition: 0.3s;
+  cursor: pointer;
 }
 .right-wrapper {
   margin-right: 150px;
 }
 
+/*random text contents*/
+.info-contents {
+  margin: 3em;
+}
+.random-contents {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+  list-style: none;
+}
+.box {
+  border: 3px solid #26c5fd;
+  border-radius: 1em;
+  width: 100px;
+  height: 100px;
+  margin-left: 3em;
+}
+
+.box:hover {
+  width: 110px;
+  height: 110px;
+  border-radius: 2em;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.ran-texts {
+  margin-top: 0.5em;
+  padding-right: 4em;
+  text-align: center;
+  color: gray;
+  font-family: Orbitron;
+  font-size: 18px;
+}
+
+.content-texts {
+  text-align: center;
+  font-family: Orbitron;
+  color: grey;
+}
+
+/*quote section contents */
+
+.quote-contents {
+  background-color: #e5e7eb;
+}
+
+.quote-sections {
+  padding: 8em;
+  padding-bottom: 5.5em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hololive-quotes {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: Orbitron;
+  font-style: italic;
+  color: #26c5fd;
+}
+.quote-credits {
+  margin-top: 1.7em;
+  margin-right: 27em;
+  text-align: right;
+  font-weight: bold;
+  font-family: Orbitron;
+}
+
+/* sign up section */
+
+.sign-up {
+  padding-left: 25em;
+}
+.sign-up-sections {
+  display: flex;
+  background-color: #26c5fd;
+  border-radius: 3em;
+  width: 70em;
+  height: 200px;
+  justify-content: center;
+  padding: 3em 3em 0.5em 3em;
+  margin: 7em 10em 7em 4em;
+}
+
+.sign-up-texts {
+  font-family: Orbitron;
+  color: white;
+}
+
+.sign-up-btn1 {
+  margin-left: 4em;
+  height: 40px;
+  width: 150px;
+  font-family: Orbitron;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #26c5fd;
+  color: azure;
+}
+
+.sign-up-btn1:hover {
+  background-color: azure;
+  color: #26c5fd;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* footer sections */
+.footer-sections {
+  display: flex;
+  background-color: #1f2937;
+  padding: 2em;
+  justify-content: center;
+}
+
+.footer-texts {
+  padding-right: 1em;
+  color: white;
+  font-family: Orbitron;
+}
+
+.footer-logo {
+  color: white;
+}
 @media screen and (max-width: 768px) {
   .nav-bar {
     flex-direction: column;
